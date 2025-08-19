@@ -23,6 +23,13 @@ body {
     position: relative;
     width: 100px;
     height: 40px;
-    background-color: #fff;
     cursor: pointer;
+}
+
+.container .box::before{
+
+    content: "";
+    position: absolute;
+    inset: -4px;
+    border: 1px solid #7ef0ff;
 }
