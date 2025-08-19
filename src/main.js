@@ -8,6 +8,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
             spans.push(span)
             box.appendChild(span)
         }
+        box.addEventListener("click", (e) => {
+            box.classList.toggle('active')
+        })
     })
 
 })
