@@ -7,6 +7,9 @@ document.addEventListener("DOMContentLoaded", (e) => {
             let span = document.createElement("span")
             spans.push(span)
             box.appendChild(span)
+            span.style.top = `${i * 1}px`;
+            let randomDelay = (Math.random() * .25 ) + 0;
+            span.style.transitionDelay = randomDelay + "s"
         }
         box.addEventListener("click", (e) => {
             box.classList.toggle('active')
