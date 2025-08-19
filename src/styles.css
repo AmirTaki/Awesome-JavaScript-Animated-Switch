@@ -45,3 +45,6 @@ body {
     pointer-events: none;
     transition: .2s ease-in-out;
 }
+.container .box.active span {
+    transform: translateX(60px);
+}
