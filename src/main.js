@@ -5,6 +5,8 @@ document.addEventListener("DOMContentLoaded", (e) => {
         let spans = [];
         for (let i  = 0 ; i < 40; i++){
             let span = document.createElement("span")
+            spans.push(span)
+            box.appendChild(span)
         }
     })
 
