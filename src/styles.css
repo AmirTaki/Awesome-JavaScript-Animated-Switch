@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -24,6 +25,7 @@ body {
     width: 100px;
     height: 40px;
     cursor: pointer;
+    filter: drop-shadow(0 0 10px #7ef0ff)  drop-shadow(0 0 30px #7ef0ff);;
 }
 
 .container .box::before{
